@@ -10,7 +10,7 @@ import com.demo.mail.model.SendMail;
 import com.demo.mail.service.SendMailService;
 
 @RestController
-@RequestMapping( path = "/sendMail/")
+@GetMapping("/sendMail")
 public class SendMailController {
 
 	@Autowired
